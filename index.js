@@ -297,7 +297,7 @@ function addArtist(array){
     name: "Kat Alicea", 
     years: "1979 - current year",
     genre: "Web Design", 
-    nationality: "nonoya",
+    nationality: "noneofya",
     bio: "Add 1-2 sentences (or use lorem ipsum)" 
   });
   console.log(array); 
@@ -366,4 +366,16 @@ function randomize(/* Code here */){
 
  /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
 
+/*  function cubistsArtists(array) {
+  for (var i = 0; i < artists.length; i++) {
+    let cubists = artists.filter(artists => artists[i].genre === 'Cubism')
+  }
+ }
+ cubistsArtists(artists);  */
+
+let spaniards = artists.filter(array => array.nationality === 'Spanish'); 
+console.log(spaniards); 
+
+
  
+

@@ -268,21 +268,21 @@ get20s(artists)
  * removeArtist removes an artist from the array at the index and console.logs the length of the remaining dataset.
  * 
  * For example, if removeArtist is invoked with the data and the number 0,
- * it will remove Amedeo Modigliani from our dataset and log the number 19. 
+ * it will remove Amedeo Modigliani from our dataset and log the number 19 ??? Log the number 19... as the array's length??. 
  * 
  * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
 function removeArtist(array, index) {
   let remove = []; 
     for(var i = 0; i < array.length; i++) {
-      /* console.log(array[i].id);  */
       if(array[i].id === index) {
-        remove.push(array[i]); 
+        array.splice(i, 1);
+        /* console.log(array[i].id -1);  */
+        console.log(array); 
+      }
     }
-  }
-  return remove; 
 }
-removeArtist(artists, 9); 
+removeArtist(artists, 0)
   
   
   /**

@@ -219,7 +219,10 @@ function thirdArtistBio(array) {
 thirdArtistBio(artists); 
 
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
-
+function typo(array){
+  return array[8].name = 'Vincent Van Gogh'; 
+}
+console.log(typo(artists)); 
 
 
 /* Task 3: Create a function called `getArtistByIndex` that takes two arguments:

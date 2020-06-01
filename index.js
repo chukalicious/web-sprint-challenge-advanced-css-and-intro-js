@@ -209,14 +209,14 @@ const artists = [
 function firstArtist(array) {
     console.log(array[0].name); 
 }
-firstArtist(artists); 
+console.log(firstArtist(artists)); 
 
 
 // (2) Bio of the third artist (2nd index) in the array
 function thirdArtistBio(array) {
   console.log(array[2].bio); 
 }
-thirdArtistBio(artists); 
+console.log(thirdArtistBio(artists)); 
 
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 function typo(array){
@@ -233,9 +233,10 @@ console.log(typo(artists));
  * For example, if getArtistByIndex is invoked with the artists dataset and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getArtistByIndex(id, name) {
-    /* code here */
+function getArtistByIndex(array, index) {
+    return `The artist at index ${index} is ${array[index].name}`
   }
+  console.log(getArtistByIndex(artists, 0)); 
   
   /**
 

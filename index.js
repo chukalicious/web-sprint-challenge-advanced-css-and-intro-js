@@ -203,10 +203,16 @@ const artists = [
 
 // 🖌🖼 M V P 🖼🖌 //
 
-/* Task 1: Practice accessing data above by console.log-ing following items:
+// Task 1: Practice accessing data above by console.log-ing following items:
 
-(1) Name of the first artist (0th index) in the array
-(2) Bio of the third artist (2nd index) in the array */
+// (1) Name of the first artist (0th index) in the array
+function firstArtist(array) {
+    console.log(array[0].name); 
+}
+firstArtist(artists); 
+
+
+// (2) Bio of the third artist (2nd index) in the array
 
 
 

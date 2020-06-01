@@ -255,25 +255,6 @@ function get20s(array) {
 get20s(artists); 
 
 
-/* function get20s(array){
-  let yearToNumber = []; 
-  let twenty = []; 
-  for(var i = 0; i < array.length; i++) {
-    yearToNumber.push(array[i].years)
-  }
-  for (var i = 0; i < yearToNumber.length; i++){
-    parseInt(yearToNumber[i]); 
-    if (parseInt(yearToNumber[i]) > 1900) {
-      twenty.push(yearToNumber[i])
-      
-    }
-  }
-  console.log(yearToNumber)
-  console.log(twenty)
-}
-get20s(artists) */
-
-
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
  *     (1) artists array
  *     (2) a number which is the desired index in the array.
@@ -384,3 +365,15 @@ function randomize(/* Code here */){
 
 
  /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
+
+
+/*  function filter20(array) {
+  for (var i = 0; i < array.length; i++) {
+    let filteredArray = array.filter(array => array[i].years); 
+    return filteredArray; 
+  }
+ }
+ filter20(artists); 
+
+
+ array[i].years.startsWith("19") */

@@ -6,12 +6,17 @@
 .container {
     display: flex;
     flex-direction: column;
+    @media (min-width: 1000px) {
+        max-width: 960px;
+        margin: 0 auto;
+    }
 
 }
 
 header {
     display: flex;
     flex-direction: column;
-    border: solid red 1px;
+    /* border: solid red 1px; */
     margin: 3rem auto; 
+    width: 100%; 
 }

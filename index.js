@@ -243,11 +243,19 @@ function getArtistByIndex(array, index) {
 
 /* Task 4: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1900-2000) */
 
-function get20s(/* Code here */){
+function get20s(array){
+  //loop over all years on the object and change their type to number
+  for(var i = 0; i < array.length; i++) {
+    console.log(parseInt(array[i].years));
+    
+    
+  }
+  return array[8].years; 
 
-  /* Code here */
 
 }
+
+get20s(artists)
 
 
 /* Task 5: Create a function called `removeArtist` that takes two arguments:

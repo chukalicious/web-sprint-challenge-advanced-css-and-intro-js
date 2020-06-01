@@ -293,11 +293,21 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should console.log() the new array with information added"*/
 
-function addArtist(/* Code here */){
 
-    /* Code here */
 
-  }
+function addArtist(array){
+  
+  return array.push({
+    id: 21,
+    name: "Kat Alicea", 
+    years: "1979 - current year",
+    genre: "Web Design", 
+    nationality: "nonoya",
+    bio: "Add 1-2 sentences (or use lorem ipsum)" 
+  });
+}
+
+  addArtist(artists);
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 

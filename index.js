@@ -209,7 +209,7 @@ const artists = [
 function firstArtist(array) {
     console.log(array[0].name); 
 }
-console.log(firstArtist(artists)); 
+firstArtist(artists); 
 
 
 // (2) Bio of the third artist (2nd index) in the array
@@ -282,13 +282,8 @@ function removeArtist(array, index) {
       }
     }
 }
-removeArtist(artists, 0)
+removeArtist(artists, 0); 
   
-  
-  /**
-
-
-
 
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, add a 21st artist to the array (you) with custom information!👩‍🎨👨‍🎨
 
@@ -302,11 +297,9 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should console.log() the new array with information added"*/
 
-
-
 function addArtist(array){
   
-  return array.push({
+  array.push({
     id: 21,
     name: "Kat Alicea", 
     years: "1979 - current year",
@@ -314,9 +307,9 @@ function addArtist(array){
     nationality: "nonoya",
     bio: "Add 1-2 sentences (or use lorem ipsum)" 
   });
+  console.log(array); 
 }
-
-  addArtist(artists);
+addArtist(artists); 
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 

@@ -23,10 +23,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe preprocessing to someone new to CSS?
+A preprocessor is a kind of translator. We might choose to code in a way that may seem more intuitive for humans, with functional features that make things easier, but that code we might come up with is not real CSS (in the case of less), so a preprocessor takes that new code we’re writing and translates it into real CSS so that the browser can render our code. 
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+The nesting of the styles in the .less file. It makes everything organized in a way that makes sense and that more easily controls what rules are applied to what elements without having to make often confusing inheritance chains.
+Interestingly, nesting has also been the concept that has given me the most trouble because I often nested at the wrong level. 
 3. How would you explain the concept of a variable to someone new to programming?
+A variable holds a value. It’s like a box that holds something, and you could empty that box and fill it with something else and that will be it’s new value. 
 4. What is the purpose of using functions in code?
+To do repetitive tasks that you have to do all over your program without having to write it again and again for every time you need it. 
 5. What is JSON data?
+It stands for JavaScript Object Notation. It’s a data file formatted in a way that’s very similar to JavaScript and that makes it convenient to use when trying to extract data to use in a JavaScript program. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -45,8 +51,8 @@ Follow these steps to set up your project:
 
 *Before you jump in, take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built. During this time, [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html) and basic styling in the [index.css file](css/index.css).*
 
-* [ ] Add a viewport meta tag to the head of your index.html page.
-* [ ] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
+* [x ] Add a viewport meta tag to the head of your index.html page.
+* [ x] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
 
 ### Task 2b: Minimum Viable Product - JavaScript
 

@@ -1,0 +1,42 @@
+.artists-container {
+    display: flex;
+    /* border: red 1px solid; */ 
+    margin: 4rem 4rem;
+
+    .artist {
+        width: 50%; 
+        padding: 1rem 1.5rem;
+        text-align: center; 
+
+        img {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 10px; 
+        }
+
+        a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: slategray;
+        }
+
+        .bio {
+            margin-top: 1rem;
+        }
+    }
+}
+@media @mobile {
+    .artists-container {
+        width: 100%; 
+        margin: 0 auto;
+        /* border: red solid 1px; */
+        display: flex;
+        flex-direction: column;
+
+        .artist {
+            margin: 0 auto;
+            width: 70%;
+        }
+    }
+    
+}
